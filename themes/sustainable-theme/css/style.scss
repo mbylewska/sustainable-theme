@@ -3,7 +3,19 @@ Theme Name: Sustainable Theme
 Author: Marta Bylewska
 **/
 
+$primary : black;
+
+
 body {
-    background-color: green;
+   margin : 0;
     
+}
+header {
+    background: $primary ;
+    width: 100%;
+    height:100px;
+
+}
+.page-wrap {
+    padding: 2rem 1rem;
 }

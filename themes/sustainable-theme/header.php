@@ -11,3 +11,10 @@
 </head>
 
 <body>
+    <header>
+        <?php if (has_nav_menu('main-menu')) {
+            wp_nav_menu(
+                array('theme_location' => 'main-menu')
+            );
+        }; ?>
+    </header>
