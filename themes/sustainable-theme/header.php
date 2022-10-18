@@ -12,9 +12,11 @@
 
 <body>
     <header>
+
         <?php if (has_nav_menu('main-menu')) {
             wp_nav_menu(
-                array('theme_location' => 'main-menu')
+                array('theme_location' => 'main-menu', 'menu_class' => 'main-menu',)
             );
         }; ?>
+
     </header>

@@ -4,6 +4,7 @@ Author: Marta Bylewska
 **/
 
 $primary : black;
+$secondary:white;
 
 
 body {
@@ -14,6 +15,30 @@ header {
     background: $primary ;
     width: 100%;
     height:100px;
+    
+    .main-menu{
+        margin:0;
+        padding:0;
+        // text-align: center;
+        padding:25px;
+        display: flex;
+        justify-content: center;
+        // height:100%;
+        // align-items: flex-end;
+
+        a{
+            padding:0 1rem;
+           font-size: large;
+            color:$secondary ;
+            text-transform:uppercase;
+            text-decoration: none;
+            
+        }
+       
+
+
+
+    }
 
 }
 .page-wrap {
