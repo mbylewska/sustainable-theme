@@ -98,6 +98,78 @@ header {
     margin:0.1rem;
 }
 
+//comment section
+
+.commentlist {
+    list-style-type:none;
+    li {
+        margin-bottom:5px;
+        padding-bottom: 5px;
+
+        .comment-author {
+             overflow: hidden;
+             position: relative;
+            background-color:$primary;
+             color:$secondary;
+            padding: 10px;
+        }
+    }
+    .odd{
+       background-color:#e8e9e9; 
+     }
+    
+    .even {
+         background-color:#e8ebde;
+     }
+     
+   
+}
+.reply { 
+    margin:0 10px 0px 10px;
+    text-align:center;
+    background-color: $primary;
+    border-radius:0.1rem;
+    padding:3px;
+    width:50px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+
+    a.comment-reply-link:hover {
+        color: $secondary;
+    }
+}
+
+#cancel-comment-reply-link  { 
+    text-align:center;
+    background-color: $primary;
+    border-radius:0.1rem;
+    padding:5px;
+    width:50px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+    text-decoration:none;
+}
+
+.comment-respond{
+    background: #e1e1e1;
+    padding: 10px;
+
+
+    .form-submit{
+        #submit{
+            text-align:center;
+            background-color: $primary;
+            border-radius:0.1rem;
+            padding:5px;
+            //width:50px;
+            color:$extra;
+            box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+            text-decoration:none;
+            // :hover{
+            //     color: $secondary;
+            // }
+        }
+    }
+}
+
 //archive papge
 .archive-page {
     width: 80%;

@@ -34,5 +34,6 @@
         </p>
 
 
+        <?php comments_template(); ?>
 <?php endwhile;
 else : endif; ?>

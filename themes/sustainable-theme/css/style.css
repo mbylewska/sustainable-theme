@@ -80,6 +80,64 @@ header .main-menu .sub-menu li .sub-menu {
   margin: 0.1rem;
 }
 
+.commentlist {
+  list-style-type: none;
+}
+.commentlist li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.commentlist li .comment-author {
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.commentlist .odd {
+  background-color: #e8e9e9;
+}
+.commentlist .even {
+  background-color: #e8ebde;
+}
+
+.reply {
+  margin: 0 10px 0px 10px;
+  text-align: center;
+  background-color: black;
+  border-radius: 0.1rem;
+  padding: 3px;
+  width: 50px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+}
+.reply a.comment-reply-link:hover {
+  color: white;
+}
+
+#cancel-comment-reply-link {
+  text-align: center;
+  background-color: black;
+  border-radius: 0.1rem;
+  padding: 5px;
+  width: 50px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+  text-decoration: none;
+}
+
+.comment-respond {
+  background: #e1e1e1;
+  padding: 10px;
+}
+.comment-respond .form-submit #submit {
+  text-align: center;
+  background-color: black;
+  border-radius: 0.1rem;
+  padding: 5px;
+  color: rgb(190, 190, 15);
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #898888;
+  text-decoration: none;
+}
+
 .archive-page {
   width: 80%;
 }
