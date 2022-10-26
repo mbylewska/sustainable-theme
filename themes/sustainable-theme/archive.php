@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 
-<section class="page-wrap">
+<section class="archive-wrap">
+
 
     <h1><?php echo single_cat_title(); ?></h1>
 

@@ -3,11 +3,19 @@
 
                 <div class="archive-page">
                         <div class="archive-item">
-                                <h3><?php the_title(); ?></h3>
+                                <?php if (has_post_thumbnail()) : ?>
 
-                                <?php the_excerpt(); ?>
+                                        <img src="<?php the_post_thumbnail_url('blog-small'); ?>" alt="<?php the_title(); ?>" class="post-image">
 
-                                <a href="<?php the_permalink(); ?>">Read more...</a>
+                                <?php endif; ?>
+
+                                <div class="blog-content">
+                                        <h3><?php the_title(); ?></h3>
+
+                                        <?php the_excerpt(); ?>
+
+                                        <a href="<?php the_permalink(); ?>">Read more...</a>
+                                </div>
                         </div>
                 </div>
 

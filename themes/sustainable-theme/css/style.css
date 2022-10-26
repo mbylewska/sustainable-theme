@@ -70,6 +70,11 @@ header .main-menu .sub-menu li .sub-menu {
 
 .page-wrap {
   padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+.page-wrap .container {
+  width: 60%;
 }
 
 .tags {
@@ -78,6 +83,15 @@ header .main-menu .sub-menu li .sub-menu {
   border-radius: 0.15rem;
   padding: 0.2rem;
   margin: 0.1rem;
+}
+
+.archive-wrap h1 {
+  text-align: center;
+}
+.archive-wrap .archive-page {
+  width: 60%;
+  display: block;
+  margin: auto;
 }
 
 .commentlist {
@@ -143,6 +157,12 @@ header .main-menu .sub-menu li .sub-menu {
 }
 .archive-page .archive-item {
   border: 1px solid black;
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.archive-page .archive-item .blog-content {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
