@@ -85,11 +85,7 @@ header .main-menu .sub-menu li .sub-menu {
   margin: 0.1rem;
 }
 
-.archive-wrap h1 {
-  text-align: center;
-}
-.archive-wrap .archive-page {
-  width: 60%;
+.post-image {
   display: block;
   margin: auto;
 }
@@ -152,10 +148,19 @@ header .main-menu .sub-menu li .sub-menu {
   text-decoration: none;
 }
 
-.archive-page {
-  width: 80%;
+.archive-wrap {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
 }
-.archive-page .archive-item {
+.archive-wrap h1 {
+  text-align: center;
+}
+.archive-wrap .archive-page {
+  width: 100%;
+  margin: auto;
+}
+.archive-wrap .archive-page .archive-item {
   border: 1px solid black;
   padding: 5px;
   margin-bottom: 10px;
@@ -163,6 +168,6 @@ header .main-menu .sub-menu li .sub-menu {
   justify-content: center;
   align-items: center;
 }
-.archive-page .archive-item .blog-content {
+.archive-wrap .archive-page .archive-item .blog-content {
   margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -105,18 +105,12 @@ header {
     margin:0.1rem;
 }
 
-.archive-wrap {
-    h1{
-        text-align: center;
-    }
-  
-
-    .archive-page{
-        width: 60%;  
-        display:block;
-        margin:auto;
-    }
+.post-image{
+    display:block;
+    margin:auto;
 }
+
+
 
 //comment section
 
@@ -191,19 +185,31 @@ header {
 }
 
 //archive papge
-.archive-page {
-    width: 80%;
-    
-    .archive-item{
-        border: 1px solid black;
-        padding: 5px;
-        margin-bottom:10px ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.archive-wrap {
+    width: 70%;
+    margin:auto;
+    padding-bottom:30px;
 
-        .blog-content{
-            margin-left: 10px;
+    h1{
+        text-align: center;
+    }
+
+    .archive-page{
+        width: 100%;  
+        //display:block;
+        margin:auto;
+
+        .archive-item{
+            border: 1px solid black;
+            padding: 5px;
+            margin-bottom:10px ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .blog-content{
+                margin-left: 10px;
+            }
         }
     }
 }
