@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 
 <section class="page-wrap">
+
+
+
     <div class="container">
+
+
 
         <h1><?php the_title(); ?></h1>
 
@@ -9,7 +14,11 @@
 
 
     </div>
-
+    <aside>
+        <?php if (is_active_sidebar('page-sidebar')) : ?>
+            <?php dynamic_sidebar('page-sidebar'); ?>
+        <?php endif; ?>
+    </aside>
 </section>
 
 
