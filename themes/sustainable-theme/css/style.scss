@@ -28,6 +28,31 @@ header {
         display:flex;
         justify-content: center;
         align-items: center;
+
+        .search-container {
+            form {
+            position: relative;
+            
+            input{
+                padding:0.3rem;
+            }
+
+            button {
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 100%;
+                width: 50px;
+                background: transparent;
+                border: transparent;
+                font-size: 20px;
+                color: $extra;
+                cursor: pointer;
+                outline: 0;
+            }
+        }
+    }
+       
     }
     
     .main-menu{
