@@ -13,10 +13,13 @@
 <body>
     <header>
 
-        <?php if (has_nav_menu('main-menu')) {
-            wp_nav_menu(
-                array('theme_location' => 'main-menu', 'menu_class' => 'main-menu',)
-            );
-        }; ?>
+        <div class="menu">
+            <?php if (has_nav_menu('main-menu')) {
+                wp_nav_menu(
+                    array('theme_location' => 'main-menu', 'menu_class' => 'main-menu',)
+                );
+            }; ?>
 
+            <?php get_search_form(); ?>
+        </div>
     </header>
