@@ -11,7 +11,7 @@ $background:#E5E5E5;
 
 body {
    margin : 0;
-   background-color: #0B3210;
+   background-color: #0b3210;
    color: $secondary;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Calibri, sans-serif;
    
@@ -123,13 +123,37 @@ header {
     }
 }
 .page-wrap {
-    padding: 2rem 1rem;
-    display: flex;
+   // padding: 2rem 1rem;
+    display:block;
     
-    justify-content: center;
+   
+
+    .header-title {
+        
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        
+       
+        h1{
+            line-height: 300px;
+            font-size: xx-large;
+            position:relative;
+            text-align: center;
+            margin:auto;
+            
+        }
+        
+    }
 
     .container{
+        
+        margin:auto;
         width:60%;
+
+        
     }
 }
 
