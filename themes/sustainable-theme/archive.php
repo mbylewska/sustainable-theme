@@ -11,3 +11,5 @@
     <?php next_posts_link(); ?>
 
 </section>
+
+<?php get_footer(); ?>
